@@ -1,0 +1,52 @@
+baseURL = "https://mrtn88.dev/"
+languageCode = "en-us"
+title = "Marcin Jakuszko"
+googleAnalytics = "G-GH75KSNMCZ"
+googleAnalyticsAsync = true
+
+[params]
+colortheme = "classic" # dark, light, white, or classic
+showAllPostsOnHomePage = true
+favicon = "favicon.png"
+description ="""
+Hi!👋 I am Marcin, a **software engineer** 🐱‍💻 based in **Warsaw, Poland** 🇵🇱. I have spent a couple of years working in JVM  ecosystem, recently switched on to golang. On this site you can find my notes 📓 on software development and industry practices. **Enjoy!** ☺️
+"""
+[[params.social]]
+name = "linkedin"
+link = "https://www.linkedin.com/in/jakuszko/"
+
+[[params.social]]
+name = "github"
+link = "https://github.com/marcinjakuszko"
+
+[[params.social]]
+name = "twitter"
+link = "https://twitter.com/marcinjakuszko"
+
+[[params.social]]
+name = "instagram"
+link = "https://www.instagram.com/mjakuszko/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writings"
+url = "/posts"
+weight = 2
+
+#[[menu.main]]
+#name = "About"
+#url = "/about"
+#weight = 3
+
+[module]
+[[module.imports]]
+# project theme
+path = "github.com/marcinjakuszko/hugo-theme-cactus"
+
+
+
+
