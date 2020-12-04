@@ -1,10 +1,9 @@
 baseURL = "https://mrtn88.dev/"
 languageCode = "en-us"
 title = "Marcin Jakuszko"
-googleAnalytics = "G-GH75KSNMCZ"
-googleAnalyticsAsync = true
 
 [params]
+googleGlobalTag = "G-GH75KSNMCZ"
 colortheme = "classic" # dark, light, white, or classic
 showAllPostsOnHomePage = true
 favicon = "favicon.png"
